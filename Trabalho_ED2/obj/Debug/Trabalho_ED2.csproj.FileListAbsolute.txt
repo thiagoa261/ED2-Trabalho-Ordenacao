@@ -1,0 +1,16 @@
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.exe.config
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.exe
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.pdb
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.SuggestedBindingRedirects.cache
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.exe
+C:\Users\gabri\source\repos\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.pdb
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.exe.config
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.exe
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\bin\Debug\Trabalho_ED2.pdb
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.AssemblyReference.cache
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.exe
+C:\Users\lucas\Desenvolvimento\ADS\TrabalhoPaulo\Trabalho_ED2\Trabalho_ED2\Trabalho_ED2\obj\Debug\Trabalho_ED2.pdb
