@@ -1,9 +1,7 @@
 ﻿using System;
 
-namespace Trabalho_ED2
-{
-    internal class Quicksort
-    {
+namespace Trabalho_ED2 {
+    internal class Quicksort {
         public long Comparisons { get; private set; }
         public long Copies { get; private set; }
 
@@ -12,6 +10,8 @@ namespace Trabalho_ED2
                 int indicePivo = Particionar(vetor, esquerda, direita);
                 Ordenar(vetor, esquerda, indicePivo - 1);
                 Ordenar(vetor, indicePivo + 1, direita);
+
+                Comparisons++;
             }
         }
 
@@ -25,6 +25,8 @@ namespace Trabalho_ED2
                 if (vetor[j] < pivo) {
                     i++;
                     Trocar(vetor, i, j);
+
+                    Comparisons++;
                 }
             }
 
@@ -33,8 +35,7 @@ namespace Trabalho_ED2
             return i + 1;
         }
 
-        private void Trocar(int[] vetor, int i, int j)
-        {
+        private void Trocar(int[] vetor, int i, int j) {
             int temp = vetor[i];
             vetor[i] = vetor[j];
             vetor[j] = temp;
