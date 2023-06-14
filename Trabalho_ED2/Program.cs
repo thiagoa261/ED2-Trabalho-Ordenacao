@@ -23,6 +23,8 @@ namespace Trabalho_ED2 {
             Console.WriteLine("-----------------------------------------------------------------");
 
             foreach (int size in tamanhosVetor) {
+                Console.WriteLine($"==%==\nVetor de tamanho: {size}\n==%==");
+
                 long heapTotalTime = 0;
                 long radixTotalTime = 0;
                 long mergeTotalTime = 0;
@@ -94,7 +96,6 @@ namespace Trabalho_ED2 {
                 long quickAverageCopies = quickTotalCopies / sementes.Length;
                 long meuAverageCopies = meuTotalCopies / sementes.Length;
 
-                Console.WriteLine($"==%==\nVetor de tamanho: {size}\n==%==");
                 Console.WriteLine("-----------------------------------------------------------------");
                 Console.WriteLine($"|  Heapsort        |  {heapAverageMilliseconds,12:F2} ms  | {heapAverageComparisons,12}  | {heapAverageCopies,7}");
                 Console.WriteLine($"|  Radixsort       |  {radixAverageMilliseconds,12:F2} ms  | {radixAverageComparisons,12}  | {radixAverageCopies,7}");
@@ -102,6 +103,9 @@ namespace Trabalho_ED2 {
                 Console.WriteLine($"|  Quicksort       |  {quickAverageMilliseconds,12:F2} ms  | {quickAverageComparisons,12}  | {quickAverageCopies,7}");
                 Console.WriteLine($"|  Meusort         |  {meuAverageMilliseconds,12:F2} ms  | {meuAverageComparisons,12}  | {meuAverageCopies,7}");
                 Console.WriteLine("-----------------------------------------------------------------");
+
+                Console.WriteLine("Pressione qualquer tecla para continuar...");
+                Console.ReadKey();
             }
 
             Console.WriteLine("=====================================================================");

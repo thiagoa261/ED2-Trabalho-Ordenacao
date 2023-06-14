@@ -73,7 +73,7 @@ namespace Trabalho_ED2
 
                 int[] arrayOrdenado = PercursoEmOrdem();
 
-                array = arrayOrdenado;
+                arrayOrdenado.CopyTo(array, 0);
                 return arrayOrdenado;
             }
 
