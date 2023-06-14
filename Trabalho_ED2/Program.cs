@@ -5,12 +5,11 @@ using static Trabalho_ED2.Meusort;
 
 namespace Trabalho_ED2 {
     internal class Program {
-        private static readonly Random random = new Random();
 
         static void Main(string[] args) {
             int[] tamanhosVetor = { 1000, 5000, 10000, 50000, 100000, 500000, 1000000 };
             int[] sementes = { 123, 456, 789, 321, 654 };
-
+    
             Heapsort heapsort = new Heapsort();
             Radixsort radix = new Radixsort();
             Mergesort merge = new Mergesort();
@@ -42,8 +41,8 @@ namespace Trabalho_ED2 {
                 long quickTotalCopies = 0;
                 long meuTotalCopies = 0;
 
-                foreach (int i in sementes) {
-                    int[] vectorOriginal = Generate(size, i);
+                foreach (int semente in sementes) {
+                    int[] vectorOriginal = Generate(size, semente);
 
                     int[] copyHeap = new int[vectorOriginal.Length];
                     int[] copyRadix = new int[vectorOriginal.Length];
@@ -115,12 +114,13 @@ namespace Trabalho_ED2 {
             stopwatch.Stop();
             return stopwatch.Elapsed;
         }
-
+            
         static int[] Generate(int length, int seed) {
+            Random random = new Random(seed);
             int[] vector = new int[length];
 
             for (int i = 0; i < length; i++) {
-                vector[i] = random.Next(seed);
+                vector[i] = random.Next(length);
             }
 
             return vector;
